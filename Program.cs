@@ -14,6 +14,7 @@ namespace Git
 
             System.Console.WriteLine("Name : {0}, year : {1}", name, year);
             System.Console.WriteLine("You're {0} years old", AgeCalculator(year, 2021));
+            System.Console.WriteLine("You will be {0} in 2025!", AgeCalculator(year, 2025));
         }
 
         private static ushort AgeCalculator(ushort bornYear, ushort yearToCalculate)
